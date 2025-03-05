@@ -12,6 +12,7 @@ namespace SDUMyFamousDataSource
     {
         public GQIColumn[] GetColumns()
         {
+			// Do something
             // Define data source columns
             // See: https://aka.dataminer.services/igqidatasource-getcolumns
             return Array.Empty<GQIColumn>();

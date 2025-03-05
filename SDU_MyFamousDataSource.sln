@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDU_MyFamousDataSource", "SDU_MyFamousDataSource\SDU_MyFamousDataSource.csproj", "{78E67F16-156D-4BE9-8DD5-CCE932027B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDU_MyFamousDataSource", "SDU_MyFamousDataSource\SDU_MyFamousDataSource.csproj", "{78E67F16-156D-4BE9-8DD5-CCE932027B5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{7250E85B-0A8A-450F-AE6F-1C6FCC339440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{30687C04-840A-4423-BE0C-E3443D5EC424}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30687C04-840A-4423-BE0C-E3443D5EC424} = {7250E85B-0A8A-450F-AE6F-1C6FCC339440}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B09672A8-67A5-439A-B69C-5031C664BD63}
